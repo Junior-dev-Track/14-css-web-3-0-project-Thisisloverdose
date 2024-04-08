@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1110px;
+  background: rgba(217, 217, 217, 1);
+  margin: 0 auto;
+}
+
+hr {
+  width: 302px;
+  height: 1px;
+  top: 219px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(94, 96, 122, 1);
+  margin-left: 24px;
+  margin-top: 29px;
+}
+
+h1 {
+  width: 64.09px;
+  height: 39.9px;
+  top: 72px;
+  left: 165px;
+  color: rgba(0, 0, 26, 1);
+  font-size: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 72px;
+}
+ol {
+  list-style-type: none;
+  text-align: right;
+}
+
+nav ol li {
+  display: inline-block;
+  margin-right: 30px;
+}
+li {
+  width: 52px;
+  height: 26px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 380;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(94, 96, 122, 1);
+  margin-top: 7px;
+}
+
+.maincontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 60px;
+}
+
+.mgrid1 {
+  grid-column: span 2;
+}
+
+.mgrid2 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 56px;
+  text-align: left;
+  width: 260px;
+  height: 105px;
+  color: rgba(0, 0, 26, 1);
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 28px;
+}
+
+.mgrid3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.mgrid3 p {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(94, 96, 122, 1);
+  width: 350px;
+  height: 104px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+button {
+  margin-left: 30px;
+
+  width: 185px;
+  height: 48px;
+  background-color: rgba(241, 93, 81, 1);
+  border-style: none;
+  color: white;
+  margin-top: 29px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 4.375px;
+  text-align: center;
+}
+
+.mgrid4 {
+  background-color: rgba(0, 0, 26, 1);
+  width: 365px;
+  height: 520px;
+  gap: 0px;
+  opacity: 0px;
+  grid-column: 3;
+  grid-row: span 2;
+}
+
+.mgrid4 h2 {
+  color: rgba(233, 170, 82, 1);
+  width: 88px;
+  height: 40px;
+  top: 32px;
+  left: 24px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 1);
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-bottom: 8px;
+}
+.mgrid4 h3 {
+  width: 300px;
+  height: 24px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 253, 250, 1);
+  margin-top: 34px;
+  margin-left: 24px;
+  margin-bottom: 8px;
+}
+
+.txt {
+  color: rgba(197, 198, 206, 1);
+  top: 32px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.sgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 60px;
+}
+
+.section {
+  display: grid;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  gap: 24px;
+}
+
+.imgsection {
+  grid-column: 1;
+  width: 100px;
+}
+
+.txtsection {
+  grid-column: 2;
+  max-width:220px;
+  
+}
+
+.txtsection .txt {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(94, 96, 122, 1);
+  margin-top: 9px;
+}
+
+.txtsection h3 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  color: rgba(0, 0, 26, 1);
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.chiffre {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 12px;
+  color: rgba(197, 198, 206, 1);
+}
